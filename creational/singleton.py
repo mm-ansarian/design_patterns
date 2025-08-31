@@ -12,8 +12,7 @@ You can read more about this Design Pattern from this url: https://www.geeksforg
 from threading import Lock
 
 
-# This is a class that is used to print an important text prettier. This class is using the
-# Singleton Design Pattern. 
+# This is a class that is used to print an important text prettier. This class is using the singleton Design Pattern. 
 class SingletonDesignPattern:
     _instance = None
     _initialized = False
@@ -32,8 +31,7 @@ class SingletonDesignPattern:
             self.set_obj(self)
             print(f'\n** Object with id {id(self._instance)} initializes successfully **\n')
 
-    # This method sets the cls._instance and cls._initialized to specify that there is an instance
-    # made from this class.
+    # This method sets the cls._instance and cls._initialized to specify that there is an instance made from this class.
     @classmethod
     def set_obj(cls, obj: object):
         cls._instance = obj
@@ -49,7 +47,7 @@ class SingletonDesignPattern:
             return f'\n\n{result}\n\n'
 
     # A method to close the instance.
-    # This is a classmethod to be able to access to `cls`.
+    # This is a classmethod to be able to access the `cls`.
     @classmethod
     def close(cls):
         if cls._instance is not None: # If the instance isn't already closed,
@@ -73,4 +71,4 @@ print(obj1.customized_print('hello world!')) # Running a method from the class(u
 print(obj1 is obj2) # This line shows that both `obj1` and `obj2` are exactly the same.
 
 obj1.close() # Closing `obj1`.
-# obj2.close() # If we run the code with this line, we are going to receive a RuntimeError(line 44).
+# obj2.close() # If we run the code with this line, we are going to receive a RuntimeError(close method, raise part).

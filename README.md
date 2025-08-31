@@ -4,7 +4,7 @@ This is going to be a repository including most of the known OOP design patterns
 ## `creational` folder:
 Including the creational design patterns that are focused on the process of object creation or problems related to object creation.
 
-## 'structural` folder:
+## `structural` folder:
 Including the structural design patterns that are solutions in software design that focus on how classes and objects are organized to form larger, functional structures.
 
 ## `behavioral` folder:
