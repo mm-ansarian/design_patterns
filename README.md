@@ -1,11 +1,11 @@
 # Introduction
-This is a repository including most of the known OOP(Object Oriented Programming) design patterns in the world. This repository can be used as a resource to see some examples about the design patterns. The source codes are written in **Python** programming language.
+This is a repository including most of the known OOP(Object Oriented Programming) Design Patterns in the world. This repository can be used as a resource to see some examples about the Design Patterns. The source codes are written in **Python** programming language.
 
 ## `creational` folder:
-Including the creational design patterns that are focused on the process of object creation or problems related to object creation.
+Including the creational Design Patterns that are focused on the process of object creation or problems related to object creation.
 
 ## `structural` folder:
-Including the structural design patterns that are solutions in software design that focus on how classes and objects are organized to form larger, functional structures.
+Including the structural Design Patterns that are solutions in software design that focus on how classes and objects are organized to form larger, functional structures.
 
 ## `behavioral` folder:
 focus on the interactions and communication between objects.
@@ -13,13 +13,13 @@ focus on the interactions and communication between objects.
 ## ***Attention***
 This repository demonstrates these patterns through simple **Python** examples, making it easier to learn and apply them in real-world projects.
 
-***The repository can be updated anytime based on newer design patterns added to the repository. So, you can help us include more design patterns in this repository or even improve the example codes.***
+***The repository can be updated anytime based on newer Design Patterns added to the repository. So, you can help us include more Design Patterns in this repository or even improve the example codes.***
 
 
 ---
 
 # About Design Patterns
-Design patterns are standard, reusable solutions to common problems that developers face during software design. They are not complete implementations, but rather templates that guide you toward solving problems in a flexible and scalable way.
+Design Patterns are standard, reusable solutions to common problems that developers face during software design. They are not complete implementations, but rather templates that guide you toward solving problems in a flexible and scalable way.
 
 ## Why are they important?
 - **Reusability**: Patterns capture solutions that can be reused in multiple contexts, reducing the need to “reinvent the wheel.”
